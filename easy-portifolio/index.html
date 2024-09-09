@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café & Conforto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Café & Conforto</h1>
+            <p>O melhor café do mundo</p>
+        </div>
+    </header>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Menu </h2>
+            <div class="menu-item">
+                <img src="c:\Users\Gedeon\Downloads\Café - Copia.jpg" alt="Café Especial">
+                <h3>Café Especial</h3>
+                <p>Um blend exclusivo de grãos selecionados, preparado com perfeição.</p>
+                <span>R$ 7,00</span>
+            </div>
+            <div class="menu-item">
+                <img src="c:\Users\Gedeon\Downloads\necessity.jpg" alt="Lanche">
+                <h3>Lanche </h3>
+                <p>Sanduíche fresco e saboroso, com ingredientes de alta qualidade.</p>
+                <span>R$ 15,00</span>
+            </div>
+            <div class="menu-item">
+                <img src="c:\Users\Gedeon\Downloads\66f6c7e2-b067-4787-916f-d2a5eb0feda1.jpg" alt="bolo Caseiro">
+                <h3>Bolo Caseiro</h3>
+                <p>Delicioso bolo feito na hora, perfeito para acompanhar seu café.</p>
+                <span>R$ 10,00</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="ambiente">
+        <div class="container">
+            <h2>Nosso Ambiente</h2>
+            <div class="image-gallery">
+                <img src="c:\Users\Gedeon\Downloads\Mr_ Nomad.jpg" alt="Leitura na cafeteria">
+                <img src="c:\Users\Gedeon\Downloads\🌼.jpg" alt="Trabalho na cafeteria">
+            </div>
+            <p>Desfrute de um ambiente aconchegante, ideal para leitura ou trabalho. Aqui, você encontra a tranquilidade que precisa para se concentrar e relaxar.</p>
+        </div>
+    </section>
+
+    <section id="localizacao">
+        <div class="container">
+            <h2>Localização</h2>
+            <p>Endereço: R. Custódio Guimarães, 27-1 - Centro</p>
+            <a href="https://www.google.com/maps/place/Rua+do+Caf%C3%A9,+456" target="_blank">
+                Ver no Google Maps
+            </a>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.434897574278!2d-46.67440868445986!3d-23.55885978467894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce586743b6c15b%3A0x86a7a29c4fef4768!2sRua%20do%20Caf%C3%A9%2C%20456%20-%20Bairro%20Aconchego%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2012354-567!5e0!3m2!1spt-BR!2sbr!4v1633076461204!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Para reservas de mesas ou informações adicionais, entre em contato conosco:</p>
+            <p>Email: cafeconforto@gmail.com.br</p>
+            <p>Telefone: (24) 24840406</p>
+            <form action="mailto:cafeconforto@gmail" method="post" enctype="text/plain">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; venha experimentar o melhor café do mundo</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
