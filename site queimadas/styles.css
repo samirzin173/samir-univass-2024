@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f0e3;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-image: url('img/fundo-de-chama-escura-imagem-realista-de-borda-de-fogo.jpg'); /* Imagem de fundo de fogo */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(192, 57, 43, 0.8); /* Fundo semi-transparente para o nav */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.btn {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer
+
+}
+    #arvore {
+
+        width: 900px ;
+        height: auto;
+        border-radius: 8px;
+        object-fit: cover;
+        
+    }
+    
